@@ -1,0 +1,230 @@
+
+
+##################################################################################
+# Copyright 2002-2024 Synopsys, Inc.  All rights reserved.
+# This Synopsys product and all associated documentation and files are
+# proprietary to Synopsys, Inc. and may only be used pursuant to the terms
+# and conditions of a written license agreement with Synopsys, Inc. All other
+# use, reproduction, modification, or distribution of the Synopsys product or
+# the associated documentation or files is strictly prohibited.
+##################################################################################
+
+
+## SVF file read: /home/vlsi/Desktop/I2C/syn/default.svf
+
+guide \
+  -tool { Design Compiler } \
+  -version { V-2023.12 built Nov 27, 2023 } \
+  -SVF { 21.230 } \
+  -timestamp { Sat May 11 14:31:17 2024 } 
+
+## Operation Id: 1
+guide_environment \
+  { { dc_product_version V-2023.12 } \
+    { dc_product_build_date { Nov 27, 2023 } } \
+    { bus_dimension_separator_style ][ } \
+    { bus_extraction_style %s\[%d:%d\] } \
+    { bus_multiple_separator_style , } \
+    { bus_naming_style %s[%d] } \
+    { bus_range_separator_style : } \
+    { dc_allow_rtl_pg false } \
+    { hdlin_allow_4state_parameters TRUE } \
+    { hdlin_unified_rtl_read FALSE } \
+    { hdlin_enable_hier_naming FALSE } \
+    { hdlin_enable_upf_compatible_naming FALSE } \
+    { hdlin_vhdl_preserve_case FALSE } \
+    { hdlin_generate_naming_style %s_%d } \
+    { hdlin_generate_separator_style _ } \
+    { hdlin_infer_enumerated_types FALSE } \
+    { hdlin_interface_port_downto FALSE } \
+    { hdlin_optimize_enum_types FALSE } \
+    { hdlin_preserve_sequential none } \
+    { hdlin_sverilog_std 2017 } \
+    { hdlin_sv_packages dont_chain } \
+    { hdlin_sv_union_member_naming FALSE } \
+    { hdlin_vhdl_std 2008 } \
+    { hdlin_vrlg_std 2005 } \
+    { hdlin_v2005_replication_semantics TRUE } \
+    { hdlin_while_loop_iterations 4096 } \
+    { hdlin_enable_verilog_configurations_canonical TRUE } \
+    { hdlin_enable_verilog_configurations_array_n_block TRUE } \
+    { hdlin_enable_persistent_macros FALSE } \
+    { hdlin_persistent_macros_filename syn_auto_generated_macro_file.sv } \
+    { link_portname_allow_period_to_match_underscore false } \
+    { link_portname_allow_square_bracket_to_match_underscore false } \
+    { port_complement_naming_style %s_BAR } \
+    { simplified_verification_mode FALSE } \
+    { template_naming_style %s_%p } \
+    { template_parameter_style %s%d } \
+    { template_separator_style _ } \
+    { upf_iso_filter_elements_with_applies_to ENABLE } \
+    { upf_isols_allow_instances_in_elements true } \
+    { link_library { * saed90nm_max_lth.db } } \
+    { target_library saed90nm_max_lth.db } \
+    { search_path /home/vlsi/Desktop/I2C/standardCell/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models } \
+    { synopsys_root /eda/synopsys/syn/V-2023.12 } \
+    { cwd /home/vlsi/Desktop/I2C/syn } \
+    { define_design_lib { -path ./work work } } \
+    { analyze { -format verilog -library work ../rtl/i2c_master_top.v } } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+## Operation Id: 2
+guide_mark \
+  -type { svfMarkTypeBegin } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 3
+guide_file_info \
+  -file { ../rtl/i2c_master_byte_ctrl.v } \
+  -cksum_file { Svf1/checksums/57913_953aebec0bdb7308b4d4e3cee8baa514.cksum } \
+  -language { svfFileInfoLangVerilog } \
+  -nameID { 57913 } \
+  -cksum { 953aebec0bdb7308b4d4e3cee8baa514 } \
+  -version { 21.230 } 
+
+## Operation Id: 4
+guide_file_info \
+  -file { ../rtl/i2c_master_bit_ctrl.v } \
+  -cksum_file { Svf1/checksums/13719_1f7bf178a1b3b0950f4c17391f29d653.cksum } \
+  -language { svfFileInfoLangVerilog } \
+  -nameID { 13719 } \
+  -cksum { 1f7bf178a1b3b0950f4c17391f29d653 } \
+  -version { 21.230 } 
+
+## Operation Id: 5
+guide_file_info \
+  -file { ../rtl/i2c_master_defines.v } \
+  -cksum_file { Svf1/checksums/52022_b220b22dedef9e43dfb5da4e81d7559b.cksum } \
+  -language { svfFileInfoLangVerilog } \
+  -nameID { 52022 } \
+  -cksum { b220b22dedef9e43dfb5da4e81d7559b } \
+  -version { 21.230 } 
+
+## Operation Id: 6
+guide_file_info \
+  -file { ../rtl/i2c_master_top.v } \
+  -cksum_file { Svf1/checksums/47224_4af8a12d856b35c6b53192c15db98534.cksum } \
+  -language { svfFileInfoLangVerilog } \
+  -nameID { 47224 } \
+  -cksum { 4af8a12d856b35c6b53192c15db98534 } \
+  -version { 21.230 } 
+
+## Operation Id: 7
+guide_mark \
+  -type { svfMarkTypeEnd } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 8
+guide_mark \
+  -type { svfMarkTypeBegin } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 9
+guide_instance_map \
+  -design { i2c_master_top } \
+  -instance { byte_controller } \
+  -linked { i2c_master_byte_ctrl } 
+
+## Operation Id: 10
+guide_mark \
+  -type { svfMarkTypeEnd } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 11
+guide_mark \
+  -type { svfMarkTypeBegin } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 12
+guide_instance_map \
+  -design { i2c_master_byte_ctrl } \
+  -instance { bit_controller } \
+  -linked { i2c_master_bit_ctrl } 
+
+## Operation Id: 13
+guide_mark \
+  -type { svfMarkTypeEnd } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 14
+guide_environment \
+  { { precompile_db_list /eda/synopsys/syn/V-2023.12/libraries/syn/gtech.db } } 
+
+## Operation Id: 15
+guide_environment \
+  { { elaborate { -library work i2c_master_top } } \
+    { current_design i2c_master_top } \
+    { link_library { * saed90nm_max_lth.db dw_foundation.sldb } } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+## Operation Id: 16
+guide_constant \
+  -design { i2c_master_byte_ctrl } \
+  -verify_scope { i2c_master_top } \
+  -type { svfConstantTypeSource } \
+  -constant0 { svfObjectPort scl_o } 
+
+## Operation Id: 17
+guide_constant \
+  -design { i2c_master_byte_ctrl } \
+  -verify_scope { i2c_master_top } \
+  -type { svfConstantTypeSource } \
+  -constant0 { svfObjectPort sda_o } 
+
+## Operation Id: 18
+guide_constant \
+  -design { i2c_master_bit_ctrl } \
+  -verify_scope { i2c_master_top } \
+  -type { svfConstantTypeSource } \
+  -constant0 { svfObjectPort scl_o } 
+
+## Operation Id: 19
+guide_constant \
+  -design { i2c_master_bit_ctrl } \
+  -verify_scope { i2c_master_top } \
+  -type { svfConstantTypeSource } \
+  -constant0 { svfObjectPort sda_o } 
+
+## Operation Id: 20
+guide_ungroup \
+  -cells { byte_controller } \
+  -design { i2c_master_top } 
+
+## Operation Id: 21
+guide_ungroup \
+  -cells { byte_controller/bit_controller } \
+  -design { i2c_master_top } 
+
+## Operation Id: 22
+guide_change_names \
+  -design { i2c_master_top } \
+  { { cell byte_controller/sub_195 sub_x_33 } } 
+
+## Operation Id: 23
+guide_change_names \
+  -design { i2c_master_top } \
+  { { cell byte_controller/bit_controller/sub_228 sub_x_64 } } 
+
+## Operation Id: 24
+guide_change_names \
+  -design { i2c_master_top } \
+  { { cell byte_controller/bit_controller/sub_260 sub_x_68 } } 
+
+## Operation Id: 25
+guide_reg_constant \
+  -design { i2c_master_top } \
+  -replaced { svfTrue } \
+  { byte_controller/bit_controller/c_state_reg[17] } \
+  { 0 } 
+
+## Operation Id: 26
+guide_environment \
+  { { postcompile_db_list /home/vlsi/Desktop/I2C/standardCell/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db } } 
+
+## Operation Id: 27
+guide_environment \
+  { { link_library { * saed90nm_max_lth.db } } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+setup
+

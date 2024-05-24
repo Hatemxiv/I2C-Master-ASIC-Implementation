@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : i2c_master_top
+Version: V-2023.12
+Date   : Sat May 11 18:29:04 2024
+****************************************
+
+Information: Changed minimum wire load model for 'i2c_master_top' from '8000' to '16000'. (OPT-171)
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_max_lth (File: /home/vlsi/Desktop/I2C/standardCell/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db)
+
+Number of ports:                           35
+Number of nets:                           600
+Number of cells:                          566
+Number of combinational cells:            411
+Number of sequential cells:               153
+Number of macros/black boxes:               0
+Number of buf/inv:                         28
+Number of references:                      26
+
+Combinational area:               3582.259192
+Buf/Inv area:                      164.044804
+Noncombinational area:            4827.340860
+Macro/Black Box area:                0.000000
+Net Interconnect area:             530.146588
+
+Total cell area:                  8409.600053
+Total area:                       8939.746641
+1

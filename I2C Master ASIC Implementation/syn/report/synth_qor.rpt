@@ -1,0 +1,109 @@
+ 
+****************************************
+Report : qor
+Design : i2c_master_top
+Version: V-2023.12
+Date   : Sat May 11 18:29:04 2024
+****************************************
+
+
+  Timing Path Group 'INPUTS'
+  -----------------------------------
+  Levels of Logic:               7.00
+  Critical Path Length:          0.73
+  Critical Path Slack:           0.53
+  Critical Path Clk Period:      1.70
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'OUTPUTS'
+  -----------------------------------
+  Levels of Logic:               0.00
+  Critical Path Length:          0.17
+  Critical Path Slack:           1.13
+  Critical Path Clk Period:      1.70
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'wb_clk_i'
+  -----------------------------------
+  Levels of Logic:              13.00
+  Critical Path Length:          1.15
+  Critical Path Slack:           0.19
+  Critical Path Clk Period:      1.70
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.13
+  Total Hold Violation:         -7.86
+  No. of Hold Violations:      150.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:                564
+  Buf/Inv Cell Count:              28
+  Buf Cell Count:                   2
+  Inv Cell Count:                  26
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       411
+  Sequential Cell Count:          153
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     3582.259192
+  Noncombinational Area:  4827.340860
+  Buf/Inv Area:            164.044804
+  Total Buffer Area:            20.28
+  Total Inverter Area:         143.77
+  Macro/Black Box Area:      0.000000
+  Net Area:                530.146588
+  -----------------------------------
+  Cell Area:              8409.600053
+  Design Area:            8939.746641
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           600
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: elc-auc-vlsi-28-lnx
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.13
+  Logic Optimization:                  0.11
+  Mapping Optimization:                0.39
+  -----------------------------------------
+  Overall Compile Time:                2.71
+  Overall Compile Wall Clock Time:     2.81
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.13  TNS: 7.86  Number of Violating Paths: 150
+
+  --------------------------------------------------------------------
+
+
+1

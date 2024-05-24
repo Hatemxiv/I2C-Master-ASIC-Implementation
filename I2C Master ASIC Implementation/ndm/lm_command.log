@@ -1,0 +1,22 @@
+#@ # 
+#@ # Running lm_shell Version V-2023.12 for linux64 -- Nov 23, 2023
+#@ # Date:   Sat May 11 14:50:24 2024
+#@ # Run by: vlsi@elc-auc-vlsi-28-lnx
+#@ 
+
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+create_workspace -flow exploration -technology /home/vlsi/Desktop/I2C/standardCell/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/process/astro/tech/astroTechFile.tf ndmTest
+set_app_options -list {design.enable_lib_cell_editing {mutable}}
+set_app_options -list {lib.workspace.save_design_views {true}}
+set_app_options -list {lib.workspace.save_layout_views {true}}
+set_app_options -list {lib.workspace.keep_all_physical_cells {true}}
+change_selection [get_workspaces {ndmTest}]
+read_db { /home/vlsi/Desktop/I2C/standardCell/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db }
+change_selection [get_workspaces {ndmTest}]
+read_lef /home/vlsi/Desktop/I2C/standardCell/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/lef/saed90nmEditted.lef
+change_selection [get_workspaces {ndmTest}]
+group_libs
+change_selection [get_workspaces {ndmTest}]
+process_workspaces  -directory /home/vlsi/Desktop/I2C/ndm
+change_selection [get_workspaces {ndmTest}]

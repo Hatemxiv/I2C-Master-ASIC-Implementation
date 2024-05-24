@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : resources
+Design : i2c_master_top
+Version: V-2023.12
+Date   : Sat May 11 18:29:04 2024
+****************************************
+
+
+Resource Report for this hierarchy in file ../rtl/i2c_master_top.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| sub_x_33       | DW01_dec       | width=3    | byte_controller/sub_195 (i2c_master_byte_ctrl.v:195) |
+| sub_x_64       | DW01_dec       | width=16   | byte_controller/bit_controller/sub_228 (i2c_master_bit_ctrl.v:228) |
+| sub_x_68       | DW01_dec       | width=14   | byte_controller/bit_controller/sub_260 (i2c_master_bit_ctrl.v:260) |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_x_33           | DW01_dec         | apparch (area)     |                |
+| sub_x_64           | DW01_dec         | apparch (area)     |                |
+| sub_x_68           | DW01_dec         | apparch (area)     |                |
+===============================================================================
+
+1

@@ -1,0 +1,252 @@
+<Database>
+versionNumber:2
+Name/home/vlsi/Desktop/I2C/ndm/check_workspace.ems
+Creation TimeSat May 11 15:13:29 2024
+Modified TimeSat May 11 15:13:30 2024
+Design Name
+Library Name
+</Database>
+<RuleCount>
+LM-0051
+LM-0061
+LM-0341
+LM-0501
+LM-0522
+LM-054224
+LMUI-0091
+</RuleCount>
+<UserDefinedRules>
+</UserDefinedRules>
+<Messages>
+LM-005Information
+LM-006Warningpara1saed90nm_max_lth10para2310para3arc10
+LM-054Informationpara1AND2X110
+LM-054Informationpara1AND2X210
+LM-054Informationpara1AND2X410
+LM-054Informationpara1AND3X110
+LM-054Informationpara1AND3X210
+LM-054Informationpara1AND3X410
+LM-054Informationpara1AND4X110
+LM-054Informationpara1AND4X210
+LM-054Informationpara1AND4X410
+LM-054Informationpara1ANTENNA10
+LM-054Informationpara1AO21X110
+LM-054Informationpara1AO21X210
+LM-054Informationpara1AO221X110
+LM-054Informationpara1AO221X210
+LM-054Informationpara1AO222X110
+LM-054Informationpara1AO222X210
+LM-054Informationpara1AO22X110
+LM-054Informationpara1AO22X210
+LM-054Informationpara1AOBUFX110
+LM-054Informationpara1AOBUFX210
+LM-054Informationpara1AOBUFX410
+LM-054Informationpara1AODFFARX110
+LM-054Informationpara1AODFFARX210
+LM-054Informationpara1AODFFNARX110
+LM-054Informationpara1AODFFNARX210
+LM-054Informationpara1AOI21X110
+LM-054Informationpara1AOI21X210
+LM-054Informationpara1AOI221X110
+LM-054Informationpara1AOI221X210
+LM-054Informationpara1AOI222X110
+LM-054Informationpara1AOI222X210
+LM-054Informationpara1AOI22X110
+LM-054Informationpara1AOI22X210
+LM-054Informationpara1AOINVX110
+LM-054Informationpara1AOINVX210
+LM-054Informationpara1AOINVX410
+LM-054Informationpara1BSLEX110
+LM-054Informationpara1BSLEX210
+LM-054Informationpara1BSLEX410
+LM-054Informationpara1BUSKP10
+LM-054Informationpara1CLOAD110
+LM-054Informationpara1DCAP10
+LM-054Informationpara1DEC24X110
+LM-054Informationpara1DEC24X210
+LM-054Informationpara1DELLN1X210
+LM-054Informationpara1DELLN2X210
+LM-054Informationpara1DELLN3X210
+LM-054Informationpara1DFFARX110
+LM-054Informationpara1DFFARX210
+LM-054Informationpara1DFFASRX110
+LM-054Informationpara1DFFASRX210
+LM-054Informationpara1DFFASX110
+LM-054Informationpara1DFFASX210
+LM-054Informationpara1DFFNARX110
+LM-054Informationpara1DFFNARX210
+LM-054Informationpara1DFFNASRNX110
+LM-054Informationpara1DFFNASRNX210
+LM-054Informationpara1DFFNASRQX110
+LM-054Informationpara1DFFNASRQX210
+LM-054Informationpara1DFFNASRX110
+LM-054Informationpara1DFFNASRX210
+LM-054Informationpara1DFFNASX110
+LM-054Informationpara1DFFNASX210
+LM-054Informationpara1DFFNX110
+LM-054Informationpara1DFFNX210
+LM-054Informationpara1DFFSSRX110
+LM-054Informationpara1DFFSSRX210
+LM-054Informationpara1DFFX110
+LM-054Informationpara1DFFX210
+LM-054Informationpara1DHFILLHLH210
+LM-054Informationpara1DHFILLHLHLS1110
+LM-054Informationpara1DHFILLLHL210
+LM-054Informationpara1FADDX110
+LM-054Informationpara1FADDX210
+LM-054Informationpara1HADDX110
+LM-054Informationpara1HADDX210
+LM-054Informationpara1HEAD2X1610
+LM-054Informationpara1HEAD2X210
+LM-054Informationpara1HEAD2X3210
+LM-054Informationpara1HEAD2X410
+LM-054Informationpara1HEAD2X810
+LM-054Informationpara1HEADX1610
+LM-054Informationpara1HEADX210
+LM-054Informationpara1HEADX3210
+LM-054Informationpara1HEADX410
+LM-054Informationpara1HEADX810
+LM-054Informationpara1IBUFFX1610
+LM-054Informationpara1IBUFFX210
+LM-054Informationpara1IBUFFX3210
+LM-054Informationpara1IBUFFX410
+LM-054Informationpara1IBUFFX810
+LM-054Informationpara1INVX010
+LM-054Informationpara1INVX110
+LM-054Informationpara1INVX1610
+LM-054Informationpara1INVX210
+LM-054Informationpara1INVX3210
+LM-054Informationpara1INVX410
+LM-054Informationpara1INVX810
+LM-054Informationpara1ISOLANDX110
+LM-054Informationpara1ISOLANDX210
+LM-054Informationpara1ISOLANDX410
+LM-054Informationpara1ISOLANDX810
+LM-054Informationpara1ISOLORX110
+LM-054Informationpara1ISOLORX210
+LM-054Informationpara1ISOLORX410
+LM-054Informationpara1ISOLORX810
+LM-054Informationpara1LARX110
+LM-054Informationpara1LARX210
+LM-054Informationpara1LASRNX110
+LM-054Informationpara1LASRNX210
+LM-054Informationpara1LASRQX110
+LM-054Informationpara1LASRQX210
+LM-054Informationpara1LASRX110
+LM-054Informationpara1LASRX210
+LM-054Informationpara1LASX110
+LM-054Informationpara1LASX210
+LM-054Informationpara1LATCHX110
+LM-054Informationpara1LATCHX210
+LM-054Informationpara1LNANDX110
+LM-054Informationpara1LNANDX210
+LM-054Informationpara1MUX21X110
+LM-054Informationpara1MUX21X210
+LM-054Informationpara1MUX41X110
+LM-054Informationpara1MUX41X210
+LM-054Informationpara1NAND2X010
+LM-054Informationpara1NAND2X110
+LM-054Informationpara1NAND2X210
+LM-054Informationpara1NAND2X410
+LM-054Informationpara1NAND3X010
+LM-054Informationpara1NAND3X110
+LM-054Informationpara1NAND3X210
+LM-054Informationpara1NAND3X410
+LM-054Informationpara1NAND4X010
+LM-054Informationpara1NAND4X110
+LM-054Informationpara1NBUFFX1610
+LM-054Informationpara1NBUFFX210
+LM-054Informationpara1NBUFFX3210
+LM-054Informationpara1NBUFFX410
+LM-054Informationpara1NBUFFX810
+LM-054Informationpara1NMT110
+LM-054Informationpara1NMT210
+LM-054Informationpara1NMT310
+LM-054Informationpara1NOR2X010
+LM-054Informationpara1NOR2X110
+LM-054Informationpara1NOR2X210
+LM-054Informationpara1NOR2X410
+LM-054Informationpara1NOR3X010
+LM-054Informationpara1NOR3X110
+LM-054Informationpara1NOR3X210
+LM-054Informationpara1NOR3X410
+LM-054Informationpara1NOR4X010
+LM-054Informationpara1NOR4X110
+LM-054Informationpara1OA21X110
+LM-054Informationpara1OA21X210
+LM-054Informationpara1OA221X110
+LM-054Informationpara1OA221X210
+LM-054Informationpara1OA222X110
+LM-054Informationpara1OA222X210
+LM-054Informationpara1OA22X110
+LM-054Informationpara1OA22X210
+LM-054Informationpara1OAI21X110
+LM-054Informationpara1OAI21X210
+LM-054Informationpara1OAI221X110
+LM-054Informationpara1OAI221X210
+LM-054Informationpara1OAI222X110
+LM-054Informationpara1OAI222X210
+LM-054Informationpara1OAI22X110
+LM-054Informationpara1OAI22X210
+LM-054Informationpara1OR2X110
+LM-054Informationpara1OR2X210
+LM-054Informationpara1OR2X410
+LM-054Informationpara1OR3X110
+LM-054Informationpara1OR3X210
+LM-054Informationpara1OR3X410
+LM-054Informationpara1OR4X110
+LM-054Informationpara1OR4X210
+LM-054Informationpara1OR4X410
+LM-054Informationpara1PGX110
+LM-054Informationpara1PGX210
+LM-054Informationpara1PGX410
+LM-054Informationpara1PMT110
+LM-054Informationpara1PMT210
+LM-054Informationpara1PMT310
+LM-054Informationpara1SDFFARX110
+LM-054Informationpara1SDFFARX210
+LM-054Informationpara1SDFFASRSX110
+LM-054Informationpara1SDFFASRSX210
+LM-054Informationpara1SDFFASRX110
+LM-054Informationpara1SDFFASRX210
+LM-054Informationpara1SDFFASX110
+LM-054Informationpara1SDFFASX210
+LM-054Informationpara1SDFFNARX110
+LM-054Informationpara1SDFFNARX210
+LM-054Informationpara1SDFFNASRX110
+LM-054Informationpara1SDFFNASRX210
+LM-054Informationpara1SDFFNASX110
+LM-054Informationpara1SDFFNASX210
+LM-054Informationpara1SDFFNX110
+LM-054Informationpara1SDFFNX210
+LM-054Informationpara1SDFFSSRX110
+LM-054Informationpara1SDFFSSRX210
+LM-054Informationpara1SDFFX110
+LM-054Informationpara1SDFFX210
+LM-054Informationpara1SHFILL110
+LM-054Informationpara1SHFILL12810
+LM-054Informationpara1SHFILL210
+LM-054Informationpara1SHFILL310
+LM-054Informationpara1SHFILL6410
+LM-054Informationpara1TIEH10
+LM-054Informationpara1TIEL10
+LM-054Informationpara1TNBUFFX110
+LM-054Informationpara1TNBUFFX1610
+LM-054Informationpara1TNBUFFX210
+LM-054Informationpara1TNBUFFX3210
+LM-054Informationpara1TNBUFFX410
+LM-054Informationpara1TNBUFFX810
+LM-054Informationpara1XNOR2X110
+LM-054Informationpara1XNOR2X210
+LM-054Informationpara1XNOR3X110
+LM-054Informationpara1XNOR3X210
+LM-054Informationpara1XOR2X110
+LM-054Informationpara1XOR2X210
+LM-054Informationpara1XOR3X110
+LM-054Informationpara1XOR3X210
+LM-034Informationpara122410para2s10para3224 with a design view (212 had ports reordered);10
+LM-052Informationpara111610para2s10
+LMUI-009Warningpara1-allow_missing10para2option10para3physical_only10
+LM-050Informationpara111610para2s10
+LM-052Informationpara122410para2s10
+</Messages>

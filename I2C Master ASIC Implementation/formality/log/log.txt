@@ -1,0 +1,211 @@
+
+                                 Formality (R)
+
+                 Version V-2023.12 for linux64 - Nov 16, 2023 
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Build: 8560677
+Hostname: elc-auc-vlsi-28-lnx
+Current time: Sat May 11 14:40:11 2024
+
+Loading db file '/eda/synopsys/fm/V-2023.12/libraries/syn/gtech.db'
+fm_shell (setup)> gui_start
+Error: unknown command 'gui_start' (CMD-005)
+fm_shell (setup)> start_gui
+fm_shell (setup)> set synopsys_auto_setup true
+true
+fm_shell (setup)> set_svf -append { /home/vlsi/Desktop/I2C/syn/default.svf } 
+SVF appended with '/home/vlsi/Desktop/I2C/syn/default.svf'.
+1
+fm_shell (setup)> read_verilog -container r -libname WORK -05 { /home/vlsi/Desktop/I2C/rtl/i2c_master_bit_ctrl.v /home/vlsi/Desktop/I2C/rtl/i2c_master_byte_ctrl.v /home/vlsi/Desktop/I2C/rtl/i2c_master_defines.v /home/vlsi/Desktop/I2C/rtl/i2c_master_top.v /home/vlsi/Desktop/I2C/rtl/timescale.v } 
+Loading verilog file '/home/vlsi/Desktop/I2C/rtl/timescale.v'
+Initializing DesignWare ...
+Initialization Complete
+Loading verilog file '/home/vlsi/Desktop/I2C/rtl/i2c_master_bit_ctrl.v'
+Loading include file '/home/vlsi/Desktop/I2C/rtl/i2c_master_defines.v'
+Loading verilog file '/home/vlsi/Desktop/I2C/rtl/i2c_master_byte_ctrl.v'
+Loading include file '/home/vlsi/Desktop/I2C/rtl/i2c_master_defines.v'
+Loading include file '/home/vlsi/Desktop/I2C/rtl/i2c_master_bit_ctrl.v'
+Loading include file '/home/vlsi/Desktop/I2C/rtl/i2c_master_defines.v'
+Warning: Overwriting existing module 'i2c_master_bit_ctrl' with newer version. (File: /home/vlsi/Desktop/I2C/rtl/i2c_master_bit_ctrl.v Line: 143)  (FMR_VLOG-064)
+Loading verilog file '/home/vlsi/Desktop/I2C/rtl/i2c_master_defines.v'
+Loading verilog file '/home/vlsi/Desktop/I2C/rtl/i2c_master_top.v'
+Loading include file '/home/vlsi/Desktop/I2C/rtl/i2c_master_defines.v'
+Loading include file '/home/vlsi/Desktop/I2C/rtl/i2c_master_bit_ctrl.v'
+Loading include file '/home/vlsi/Desktop/I2C/rtl/i2c_master_defines.v'
+Loading include file '/home/vlsi/Desktop/I2C/rtl/i2c_master_byte_ctrl.v'
+Loading include file '/home/vlsi/Desktop/I2C/rtl/i2c_master_defines.v'
+Loading include file '/home/vlsi/Desktop/I2C/rtl/i2c_master_bit_ctrl.v'
+Loading include file '/home/vlsi/Desktop/I2C/rtl/i2c_master_defines.v'
+Warning: Overwriting existing module 'i2c_master_bit_ctrl' with newer version. (File: /home/vlsi/Desktop/I2C/rtl/i2c_master_bit_ctrl.v Line: 143)  (FMR_VLOG-064)
+Warning: Overwriting existing module 'i2c_master_bit_ctrl' with newer version. (File: /home/vlsi/Desktop/I2C/rtl/i2c_master_bit_ctrl.v Line: 143)  (FMR_VLOG-064)
+Warning: Overwriting existing module 'i2c_master_byte_ctrl' with newer version. (File: /home/vlsi/Desktop/I2C/rtl/i2c_master_byte_ctrl.v Line: 75)  (FMR_VLOG-064)
+Current container set to 'r'
+1
+fm_shell (setup)> set_top r:/WORK/i2c_master_top 
+Setting top design to 'r:/WORK/i2c_master_top'
+Status:   Elaborating design i2c_master_top   ...  
+Status:   Elaborating design i2c_master_byte_ctrl   ...  
+Warning: You are using the full_case directive but not all cases are covered. (Signal: <unknown> Block: /i2c_master_byte_ctrl File: /home/vlsi/Desktop/I2C/rtl/i2c_master_byte_ctrl.v Line: 233)  (FMR_ELAB-115)
+Status:   Elaborating design i2c_master_bit_ctrl   ...  
+Warning: You are using the full_case directive but not all cases are covered. (Signal: <unknown> Block: /i2c_master_bit_ctrl File: /home/vlsi/Desktop/I2C/rtl/i2c_master_bit_ctrl.v Line: 408)  (FMR_ELAB-115)
+Status:  Implementing inferred operators...
+Top design set to 'r:/WORK/i2c_master_top' with warnings
+   ATTENTION: RTL interpretation messages were produced during link.
+              Verification results may disagree with a logic simulator.
+
+************ RTL Interpretation Summary ************
+************ Design: r:/WORK/i2c_master_top
+2 FMR_ELAB-115 messages produced    
+full_case interpreted (3 total, 2 with unspecified cases)
+3 FMR_ELAB-115 messages interpreted    (full case interpretation)
+
+Please refer to the Formality log file for more details,
+or execute report_hdlin_mismatches.
+****************************************************
+
+Reference design set to 'r:/WORK/i2c_master_top'
+1
+fm_shell (setup)> read_verilog -container i -libname WORK -05 { /home/vlsi/Desktop/I2C/syn/output/i2c_master_top.v } 
+Loading verilog file '/home/vlsi/Desktop/I2C/syn/output/i2c_master_top.v'
+Current container set to 'i'
+1
+fm_shell (setup)> read_db { /home/vlsi/Desktop/I2C/standardCell/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db } 
+Loading db file '/home/vlsi/Desktop/I2C/standardCell/SAED90nm_EDK_10072017/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db'
+1
+fm_shell (setup)> set_top i:/WORK/i2c_master_top 
+Setting top design to 'i:/WORK/i2c_master_top'
+Status:  Implementing inferred operators...
+
+************ Library Checking Summary ************
+Warning:  60 unlinked power cell(s) with no power down function on an ff or latch.
+        Use 'report_libraries -defects all' for more details.
+**************************************************
+
+Top design successfully set to 'i:/WORK/i2c_master_top'
+Implementation design set to 'i:/WORK/i2c_master_top'
+1
+fm_shell (setup)> match 
+Reference design is 'r:/WORK/i2c_master_top'
+Implementation design is 'i:/WORK/i2c_master_top'
+Status:  Checking designs...
+Status:  Building verification models...
+Status:  Processing Guide Commands...
+SVF BEGIN: Timestamp: Cpu: 0.000h, Wall: 0.062h, Mem: 0.710G, Current time: Sat May 11 14:43:53 2024
+SVF END: Timestamp: Cpu: 0.000h, Wall: 0.062h, Mem: 0.710G, Current time: Sat May 11 14:43:53 2024
+
+***************************** Guidance Summary *****************************
+                                         Status
+Command                 Accepted   Rejected  Unsupported  Unprocessed  Total
+----------------------------------------------------------------------------
+change_names        :          3          0          0          0          3
+constant            :          4          0          0          0          4
+environment         :          5          0          0          0          5
+file_info           :          4          0          0          0          4
+instance_map        :          2          0          0          0          2
+mark                :          6          0          0          0          6
+reg_constant        :          1          0          0          0          1
+ungroup             :          2          0          0          0          2
+----------------------------------------------------------------------------
+Total               :         27          0          0          0         27
+
+
+Note: No guide_hier_map commands were found in the SVF. It is
+      important to enable guide_hier_map generation in
+      Design Compiler to avoid SVF rejections that can cause
+      aborted/failing points or long run times during verification.
+      In Design Compiler the recommended methodology uses variable
+      hdlin_enable_hier_map and command set_verification_top.
+
+SVF files read:
+      /home/vlsi/Desktop/I2C/syn/default.svf
+
+SVF files produced:
+  /home/vlsi/Desktop/I2C/formality/formality_svf/
+    svf.txt
+****************************************************************************
+
+Status:  Matching...
+
+*********************************** Matching Results ***********************************
+ 167 Compare points matched by name
+ 0 Compare points matched by signature analysis
+ 0 Compare points matched by topology
+ 19 Matched primary inputs, black-box outputs
+ 0(0) Unmatched reference(implementation) compare points
+ 0(0) Unmatched reference(implementation) primary inputs, black-box outputs
+****************************************************************************************
+
+1
+fm_shell (match)> verify 
+Reference design is 'r:/WORK/i2c_master_top'
+Implementation design is 'i:/WORK/i2c_master_top'
+
+*********************************** Matching Results ***********************************
+ 167 Compare points matched by name
+ 0 Compare points matched by signature analysis
+ 0 Compare points matched by topology
+ 19 Matched primary inputs, black-box outputs
+ 0(0) Unmatched reference(implementation) compare points
+ 0(0) Unmatched reference(implementation) primary inputs, black-box outputs
+****************************************************************************************
+
+Status:  Verifying...
+
+***************************** Synopsys Auto Setup Summary ******************************
+
+!!! Synopsys Auto Setup Mode was enabled. !!!
+!!! Verification results are valid assuming the following setup constraints: !!!
+
+### RTL Interpretation Setup
+   set hdlin_ignore_parallel_case false
+   set hdlin_ignore_full_case false
+   set hdlin_error_on_mismatch_message false
+   set hdlin_ignore_embedded_configuration true
+
+### Undriven Signal Handling Setup
+   set verification_set_undriven_signals synthesis
+
+### Test Logic Setup
+   set verification_verify_directly_undriven_output false
+   For details see report_dont_verify_points and report_constants
+
+For further details on Synopsys Auto Setup Mode: Type man synopsys_auto_setup
+****************************************************************************************
+
+
+********************************* Verification Results *********************************
+Verification SUCCEEDED
+   ATTENTION: synopsys_auto_setup mode was enabled.
+              See Synopsys Auto Setup Summary for details.
+   ATTENTION: RTL interpretation messages were produced during link
+              of reference design.
+              Verification results may disagree with a logic simulator.
+-----------------------------------------------------------------------
+ Reference design: r:/WORK/i2c_master_top
+ Implementation design: i:/WORK/i2c_master_top
+ 167 Passing compare points
+----------------------------------------------------------------------------------------
+Matched Compare Points     BBPin    Loop   BBNet     Cut    Port     DFF     LAT   TOTAL
+----------------------------------------------------------------------------------------
+Passing (equivalent)           0       0       0       0      14     153       0     167
+Failing (not equivalent)       0       0       0       0       0       0       0       0
+****************************************************************************************
+1
+1
+fm_shell (verify)> 
